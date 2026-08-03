@@ -1,35 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chanatda Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#eef5ff;
+color:#333;
+}
+
+header{
+background:#0d6efd;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+header img{
+width:220px;
+height:220px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid white;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+margin:20px 0;
+}
+
+nav{
+background:#084298;
+padding:15px;
+text-align:center;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+section{
+width:85%;
+margin:30px auto;
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+h2{
+color:#0d6efd;
+margin-bottom:15px;
+}
+
+ul{
+margin-left:20px;
+line-height:2;
+}
+
+.project{
+background:#dfefff;
+padding:15px;
+border-radius:10px;
+margin-top:15px;
+}
+
+footer{
+background:#084298;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+</style>
+
+</head>
+
+<body>
+
 <header>
-    <!-- รูปโปรไฟล์ -->
+
+<h1>Chanatda</h1>
+
+<img src="my-profile.jpg" alt="Profile Picture">
+
+<h3>Student Portfolio</h3>
+
+<p>Welcome to my personal portfolio website.</p>
+
 </header>
 
 <nav>
-    <a href="#about">About Me</a> |
-    <a href="#skills">Skills</a> |
-    <a href="#sop">Statement of Purpose</a> |
-    <a href="#projects">Projects</a> |
-    <a href="#contact">Contact</a>
+
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#activities">Activities</a>
+<a href="#certificates">Certificates</a>
+<a href="#sop">SOP</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+
 </nav>
 
 <section id="about">
-    <h2>About Me</h2>
+
+<h2>About Me</h2>
+
+<p>
+Hello! My name is Chanatda. I am currently a Grade 12 student in Thailand.
+I am interested in Business Administration because I enjoy communication,
+teamwork, leadership, and management.
+I always challenge myself to learn new things and improve my skills through
+school activities, volunteer work, and academic projects.
+My goal is to become a successful business professional in the future.
+</p>
+
+</section>
+
+<section id="education">
+
+<h2>Education</h2>
+
+<p><strong>High School</strong></p>
+
+<p>Your School Name</p>
+
+<p>Grade 12 (2026)</p>
+
 </section>
 
 <section id="skills">
-    <h2>Skills</h2>
+
+<h2>Skills</h2>
+
+<ul>
+
+<li>HTML5</li>
+<li>CSS3</li>
+<li>Microsoft Word</li>
+<li>Microsoft Excel</li>
+<li>Microsoft PowerPoint</li>
+<li>Communication Skills</li>
+<li>Leadership</li>
+<li>Teamwork</li>
+<li>Problem Solving</li>
+<li>Time Management</li>
+
+</ul>
+
+</section>
+
+<section id="activities">
+
+<h2>Activities</h2>
+
+<ul>
+
+<li>Volunteer at Health Promotion Hospital.</li>
+<li>Participated in school volunteer activities.</li>
+<li>Participated in science project activities.</li>
+<li>Participated in community service.</li>
+
+</ul>
+
+</section>
+
+<section id="certificates">
+
+<h2>Certificates</h2>
+
+<ul>
+
+<li>Volunteer Activity Certificate</li>
+<li>Science Project Certificate</li>
+<li>School Activity Certificate</li>
+
+</ul>
+
 </section>
 
 <section id="sop">
-    <h2>Statement of Purpose (SOP)</h2>
+
+<h2>Statement of Purpose</h2>
+
+<p>
+
+My dream is to study Business Administration at university.
+I believe education is the key to success.
+I want to improve my knowledge, leadership,
+communication, and management skills in order to prepare myself
+for future challenges.
+I am determined to work hard, continue learning,
+and contribute positively to society.
+
+</p>
+
 </section>
 
 <section id="projects">
-    <h2>Projects</h2>
+
+<h2>Projects</h2>
+
+<div class="project">
+
+<h3>Science Project</h3>
+
+<p>
+Research on the use of duckweed as soil cover for growing marigold plants.
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>Volunteer Project</h3>
+
+<p>
+Participated in health promotion and community volunteer activities.
+</p>
+
+</div>
+
 </section>
 
 <section id="contact">
-    <h2>Contact</h2>
+
+<h2>Contact</h2>
+
+<p><strong>Name :</strong> Chanatda</p>
+<p><strong>Email :</strong> yourname@gmail.com</p>
+<p><strong>Phone :</strong> 08X-XXX-XXXX</p>
+<p><strong>Facebook :</strong> Chanatda</p>
+<p><strong>GitHub :</strong> github.com/chanatda2551</p>
+
 </section>
 
 <footer>
-    <p>&copy; 2026 Chanatda. All rights reserved.</p>
+
+<p>© 2026 Chanatda. All Rights Reserved.</p>
+
 </footer>
+
+</body>
+</html>
